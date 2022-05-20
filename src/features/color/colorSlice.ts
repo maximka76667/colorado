@@ -29,7 +29,7 @@ const colorSlice = createSlice({
       state.color = color.hex();
       state.darker = darker;
       state.brighter = brighter;
-      state.mix = mix(brighter, darker).toString()
+      state.mix = mix(brighter, darker).toString();
     }
   }
 })
